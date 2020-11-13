@@ -44,3 +44,27 @@ function generate() {
   }
 
 }
+
+function cancel() {
+
+  //variabili utili
+  var ticket = document.getElementById("ticket");
+
+  var nameandlastnameElement = document.getElementById("nameandlastname");
+  var trainElement = document.getElementById("train");
+  var carriageElement = document.getElementById("carriage");
+  var priceElement = document.getElementById("price");
+  var categoryElement = document.getElementById("category");
+
+  document.getElementById("nameInput").value = "";
+  document.getElementById("lastnameInput").value = "";
+  document.getElementById("kmInput").value = "";
+  document.getElementById("ageSelect").value = "minorenne";
+
+  ticket.className = "hidden";
+  nameandlastnameElement.innerHTML = "";
+  trainElement.innerHTML = "";
+  carriageElement.innerHTML = "";
+  priceElement.innerHTML = "";
+  categoryElement.innerHTML = "";
+}
