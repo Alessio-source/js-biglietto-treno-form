@@ -51,6 +51,19 @@ main {
   padding: 0 10px;
 }
 
+.box .element:last-of-type {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.box button {
+  border: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  background: #ECF0F1;
+  border-radius: 5px;
+}
+
 #biglietto {
   width: 400px;
   background-color: lightgrey;
