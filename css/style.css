@@ -40,6 +40,13 @@ main {
 
 .box .element select {
   margin-left: 79px;
+  width: 150px;
+  height: 30px;
+  padding: 0 10px;
+  border: none;
+  border-radius: 5px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
 }
 
 .box .element:not(:last-of-type) {
@@ -48,7 +55,12 @@ main {
 
 .box .element input {
   width: 150px;
+  height: 30px;
   padding: 0 10px;
+  border: none;
+  border-radius: 5px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
 }
 
 .box .element:last-of-type {
@@ -71,7 +83,7 @@ main {
   margin: 0 auto;
   padding: 15px;
   border-radius: 5px;
-  box-shadow: 0 0 5px 2px grey;
+  box-shadow: 0 0 5px 2px black;
 }
 
 #ticket p:not(:last-child){
