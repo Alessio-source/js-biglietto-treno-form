@@ -20,23 +20,23 @@
 
         <div class="element">
           <label for="">Nome:</label>
-          <input type="text" name="name" value="" placeholder="Nome">
+          <input id="nameInput" type="text" name="name" value="" placeholder="Nome">
         </div>
 
 
         <div class="element">
           <label for="">Cognome:</label>
-          <input type="text" name="" value="" placeholder="Cognome">
+          <input id="lastnameInput" type="text" name="" value="" placeholder="Cognome">
         </div>
 
         <div class="element">
           <label for="">Numero Km:</label>
-          <input type="number" name="" value="" placeholder="Numero Km">
+          <input id="kmInput" type="number" name="" value="" placeholder="Numero Km">
         </div>
 
         <div class="element">
           <label for="">Età:</label>
-          <select class="" name="">
+          <select id="ageSelect" class="" name="">
             <option value="minorenne">Minorenne</option>
             <option value="maggiorenne">Maggiorenne</option>
             <option value="over65">Over 65</option>
@@ -44,14 +44,14 @@
         </div>
 
         <div class="element">
-          <button type="button" name="button">Genera</button>
+          <button type="button" name="button" onclick="generate()">Genera</button>
           <button type="button" name="button">Annulla</button>
         </div>
 
 
       </div>
 
-      <div id="biglietto" class="hidden">
+      <div id="ticket" class="hidden">
         <p id="nameandlastname"></p>
         <p id="train"></p>
         <p id="carriage"></p>

@@ -64,7 +64,7 @@ main {
   border-radius: 5px;
 }
 
-#biglietto {
+#ticket {
   width: 400px;
   background-color: lightgrey;
   align-self: center;
@@ -74,7 +74,7 @@ main {
   box-shadow: 0 0 5px 2px grey;
 }
 
-#biglietto p:not(:last-child){
+#ticket p:not(:last-child){
   margin-bottom: 10px;
 }
 
